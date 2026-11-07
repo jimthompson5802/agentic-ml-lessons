@@ -18,7 +18,7 @@ These lessons cover commits `4602fa6` through `8775327` in [agentic-ml](https://
 
 **Example prompts for implementing a user story.** This table from the [US-11 chat extract](raw-data/us-11-chat.md#prompt-and-response-table) shows developer direction and approvals from planning through merge. Responses show the first 100 characters of the first assistant message before the next user prompt. Ellipses mark longer responses; matching-record sessions are incomplete.
 
-| State of the Workflow | User prompt | Assistant response |
+| Workflow State | My prompt | Coding Assistant response |
 | --- | --- | --- |
 |Selected US-11 for implementation, requesting agent to develop implementation plan. Coding Assistant creates feature branch.  | develop implementation plan for us-11 | I’ll use the create-implementation-plan and retrieve-github-issue skills to identify US-11’s scope a... |
 | Coding assistant setting up access to Github | you can continue | I’ll retry GitHub access, then read US-11’s full discussion and the relevant design contracts before... |
@@ -67,4 +67,4 @@ The following items describe that rework.
 - **Design claims needed clearer boundaries.** The design separates implemented contracts, proposed interfaces, and deferred capabilities. OS isolation, hard quotas, managed agents, and durable recovery remain deferred. Historical designs serve as references rather than MVP requirements. ([Active design](../agentic-ml/docs/specs/agentic-ml-harness-design.md))
 
 
-**Checkpoints needed a concise handoff.** CHECKPOINTS.md now summarizes the current position and links to authoritative plans and evidence. ([Development checkpoints](../agentic-ml/CHECKPOINTS.md))
+**Periodic clean up of CHECKPOINTS.md** Reduce the clutter in CHECKPOINTS.md. It now summarizes the current position and links to authoritative plans and evidence. ([Development checkpoints](../agentic-ml/CHECKPOINTS.md))
