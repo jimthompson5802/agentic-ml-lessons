@@ -4,6 +4,8 @@ Clear requirements, developer approval gates, and acceptance-based verification 
 
 These lessons cover commits `4602fa6` through `8775327` in [agentic-ml](https://github.com/jimthompson5802/agentic-ml). The US-11 prompt/response table illustrates developer direction from planning through merge.
 
+**Key takeaway:** Well-defined user stories, detailed design specifications, and regular review of the coding assistant’s work are critical to controlling project scope and preventing over-engineering.
+
 ## What Worked
 
 **Clear requirements authority defined scope.** GitHub issues govern implementation, including acceptance criteria and comment decisions. Stories provide milestone context; design documents support implementation. Agents must read the complete issue and relevant design contracts before coding. ([Agent instructions](../agentic-ml/AGENTS.md), [User stories](../agentic-ml/docs/specs/user-stories.md), [Active design](../agentic-ml/docs/specs/agentic-ml-harness-design.md))
