@@ -1,14 +1,12 @@
 # Lessons Learned: #2 Agentic ML Development
 
-Clear requirements, developer approval gates, and acceptance-based verification supported agentic development. Human review narrowed the MVP and simplified the design: US-11 adopted native pandas extraction, while US-12 issue #19 reused pandas and scikit-learn capabilities, added two-way split support, and reduced four proposed helpers to two optional helpers.
+These lessons cover commits `4602fa6` through `889c28e` in [agentic-ml](https://github.com/jimthompson5802/agentic-ml). 
 
-These lessons cover commits `4602fa6` through `889c28e` in [agentic-ml](https://github.com/jimthompson5802/agentic-ml). Two dialogue tables at the end trace developer direction from planning through implementation, review, and merge. The US-11 table shows design correction and phased approvals for local data extraction. The US-12 issue #19 table shows how questions about requirements and proposed APIs led to scope alignment, simpler interfaces, and verification of assessment and partitioning behavior.
+Two dialogue tables at the end trace developer direction from planning through implementation, review, and merge. The US-11 table shows design correction and phased approvals for local data extraction. The US-12 issue #19 table shows how questions about requirements and proposed APIs led to scope alignment, simpler interfaces, and verification of assessment and partitioning behavior.
 
 **Key takeaway:** Well-defined user stories, detailed design specifications, and regular review of the coding assistant’s work are critical to controlling project scope and preventing over-engineering. Reviewing proposed interfaces before coding helps uncover missing requirements and unnecessary abstractions.
 
 ## What Worked
-
-**Clear requirements authority defined scope.** GitHub issues govern implementation, including acceptance criteria and comment decisions. Stories provide milestone context; design documents support implementation. Agents must read the complete issue and relevant design contracts before coding. ([Agent instructions](https://github.com/jimthompson5802/agentic-ml/blob/main/AGENTS.md), [User stories](https://github.com/jimthompson5802/agentic-ml/blob/main/docs/specs/user-stories.md), [Active design](https://github.com/jimthompson5802/agentic-ml/blob/main/docs/specs/agentic-ml-harness-design.md))
 
 **Phase gates kept approval explicit.** Plans follow milestone → user story → implementation phases → tasks. Each phase requires developer approval; plan approval alone does not authorize implementation. Scope changes require a recorded impact assessment and decision. ([Agent instructions](https://github.com/jimthompson5802/agentic-ml/blob/main/AGENTS.md))
 
@@ -22,7 +20,7 @@ These lessons cover commits `4602fa6` through `889c28e` in [agentic-ml](https://
 
 **Ambiguity gave the coding assistant too much design freedom.** As development progressed, it became clear that gaps in the user stories and design left too much room for the assistant to invent detailed interfaces and code. The result was an over-engineered solution for this stage of development. More explicit scope, simpler interface expectations, and early design review were needed to keep implementation focused on the MVP.
 
-Resolving this issue consumed additional development time and tokens to narrow the roadmap, simplify requirements and interfaces, clarify design claims and assistant evidence, and update project records.
+Resolving this issue added development time and increased tokens costs.
 
 The following items describe that rework.
 
