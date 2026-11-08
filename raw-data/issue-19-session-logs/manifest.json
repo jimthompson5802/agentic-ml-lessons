@@ -1,0 +1,549 @@
+{
+  "extracted_at_utc": "2026-11-08T01:19:55.456480+00:00",
+  "issue": "https://github.com/jimthompson5802/agentic-ml/issues/19",
+  "source_root": "/home/vscode/.codex",
+  "selection": "issues/19\\b|issue\\s*#?19\\b|us-12-19|US-12-assessment-splits",
+  "format": "Filtered public conversation and tool activity, not byte-for-byte raw rollouts",
+  "excluded_records": "Reasoning/internal context, system/developer messages, duplicate event messages, runtime state and setup-only user preambles",
+  "active_session_cutoff": "Current session stops at the user extraction request, excluding the extraction operation itself",
+  "scanned_sessions": [
+    {
+      "id": "01a19ee6-e33d-7503-9a91-2f7fb748c563",
+      "source": "/home/vscode/.codex/sessions/2026/11/03/rollout-2026-11-03T00-54-54-01a19ee6-e33d-7503-9a91-2f7fb748c563.jsonl",
+      "matched": false
+    },
+    {
+      "id": "01a19f44-32ab-78a1-b3df-d36125fe80ca",
+      "source": "/home/vscode/.codex/sessions/2026/11/03/rollout-2026-11-03T02-36-49-01a19f44-32ab-78a1-b3df-d36125fe80ca.jsonl",
+      "matched": false
+    },
+    {
+      "id": "01a19f51-9e00-7572-a35a-82d9fd9d12c5",
+      "source": "/home/vscode/.codex/sessions/2026/11/03/rollout-2026-11-03T02-51-28-01a19f51-9e00-7572-a35a-82d9fd9d12c5.jsonl",
+      "matched": false
+    },
+    {
+      "id": "01a19f52-b706-7583-b147-fc78e2579cde",
+      "source": "/home/vscode/.codex/sessions/2026/11/03/rollout-2026-11-03T02-52-40-01a19f52-b706-7583-b147-fc78e2579cde.jsonl",
+      "matched": false
+    },
+    {
+      "id": "01a19f59-648b-7f82-8b0f-5b691e2ea62c",
+      "source": "/home/vscode/.codex/sessions/2026/11/03/rollout-2026-11-03T02-59-58-01a19f59-648b-7f82-8b0f-5b691e2ea62c.jsonl",
+      "matched": false
+    },
+    {
+      "id": "01a19f69-535c-7440-8aae-4bad4d463edc",
+      "source": "/home/vscode/.codex/sessions/2026/11/03/rollout-2026-11-03T03-17-23-01a19f69-535c-7440-8aae-4bad4d463edc.jsonl",
+      "matched": false
+    },
+    {
+      "id": "01a1a10a-4c67-7c40-bd7a-29d00adfd4a2",
+      "source": "/home/vscode/.codex/sessions/2026/11/03/rollout-2026-11-03T10-52-49-01a1a10a-4c67-7c40-bd7a-29d00adfd4a2.jsonl",
+      "matched": false
+    },
+    {
+      "id": "01a1a138-0e08-77e2-8ec6-d6e3db90c37f",
+      "source": "/home/vscode/.codex/sessions/2026/11/03/rollout-2026-11-03T11-42-47-01a1a138-0e08-77e2-8ec6-d6e3db90c37f.jsonl",
+      "matched": false
+    },
+    {
+      "id": "01a1a146-d8a0-7b81-b177-4a22c5e6c27f",
+      "source": "/home/vscode/.codex/sessions/2026/11/03/rollout-2026-11-03T11-58-57-01a1a146-d8a0-7b81-b177-4a22c5e6c27f.jsonl",
+      "matched": false
+    },
+    {
+      "id": "01a1a3fb-4834-7be1-9704-ae89ba86589f",
+      "source": "/home/vscode/.codex/sessions/2026/11/04/rollout-2026-11-04T00-35-16-01a1a3fb-4834-7be1-9704-ae89ba86589f.jsonl",
+      "matched": false
+    },
+    {
+      "id": "01a1a403-cd09-7133-8b93-5152a3d4c450",
+      "source": "/home/vscode/.codex/sessions/2026/11/04/rollout-2026-11-04T00-44-34-01a1a403-cd09-7133-8b93-5152a3d4c450.jsonl",
+      "matched": false
+    },
+    {
+      "id": "01a1a405-a865-72b3-9671-376ed02e6ca9",
+      "source": "/home/vscode/.codex/sessions/2026/11/04/rollout-2026-11-04T00-46-36-01a1a405-a865-72b3-9671-376ed02e6ca9.jsonl",
+      "matched": false
+    },
+    {
+      "id": "01a1a412-ebd4-7f43-a154-882b57542332",
+      "source": "/home/vscode/.codex/sessions/2026/11/04/rollout-2026-11-04T01-01-05-01a1a412-ebd4-7f43-a154-882b57542332.jsonl",
+      "matched": false
+    },
+    {
+      "id": "01a1a43b-4400-7d21-8c7a-2f842f4e3abd",
+      "source": "/home/vscode/.codex/sessions/2026/11/04/rollout-2026-11-04T01-45-09-01a1a43b-4400-7d21-8c7a-2f842f4e3abd.jsonl",
+      "matched": true
+    },
+    {
+      "id": "01a1a47f-cf58-73f3-b6df-f4e2e45cdf8c",
+      "source": "/home/vscode/.codex/sessions/2026/11/04/rollout-2026-11-04T03-00-02-01a1a47f-cf58-73f3-b6df-f4e2e45cdf8c.jsonl",
+      "matched": false
+    },
+    {
+      "id": "01a1a610-ceb3-73c3-8e1a-072e03980596",
+      "source": "/home/vscode/.codex/sessions/2026/11/04/rollout-2026-11-04T10-18-01-01a1a610-ceb3-73c3-8e1a-072e03980596.jsonl",
+      "matched": false
+    },
+    {
+      "id": "01a1a62e-8898-7742-a70e-c0677640cfd4",
+      "source": "/home/vscode/.codex/sessions/2026/11/04/rollout-2026-11-04T10-50-29-01a1a62e-8898-7742-a70e-c0677640cfd4.jsonl",
+      "matched": false
+    },
+    {
+      "id": "01a1b3f5-daca-77c1-b341-a41112af5e81",
+      "source": "/home/vscode/.codex/sessions/2026/11/07/rollout-2026-11-07T03-03-16-01a1b3f5-daca-77c1-b341-a41112af5e81.jsonl",
+      "matched": false
+    },
+    {
+      "id": "01a1b3fe-3e21-7af0-9ebc-9d3d324b4bb6",
+      "source": "/home/vscode/.codex/sessions/2026/11/07/rollout-2026-11-07T03-12-26-01a1b3fe-3e21-7af0-9ebc-9d3d324b4bb6.jsonl",
+      "matched": true
+    },
+    {
+      "id": "01a1b5b3-7633-70d2-9547-e80b87a2d216",
+      "source": "/home/vscode/.codex/sessions/2026/11/07/rollout-2026-11-07T11-10-00-01a1b5b3-7633-70d2-9547-e80b87a2d216.jsonl",
+      "matched": false
+    },
+    {
+      "id": "01a1b5b6-f6cb-78f3-b44a-04b2c02897cd",
+      "source": "/home/vscode/.codex/sessions/2026/11/07/rollout-2026-11-07T11-13-49-01a1b5b6-f6cb-78f3-b44a-04b2c02897cd.jsonl",
+      "matched": false
+    },
+    {
+      "id": "01a1b5e6-eb75-7783-93df-fdbc133152fc",
+      "source": "/home/vscode/.codex/sessions/2026/11/07/rollout-2026-11-07T12-06-12-01a1b5e6-eb75-7783-93df-fdbc133152fc.jsonl",
+      "matched": false
+    },
+    {
+      "id": "01a1b652-8255-7051-8f7d-9cf3bfa2ed5d",
+      "source": "/home/vscode/.codex/sessions/2026/11/07/rollout-2026-11-07T14-03-43-01a1b652-8255-7051-8f7d-9cf3bfa2ed5d.jsonl",
+      "matched": true
+    },
+    {
+      "id": "01a1b672-3b85-7da0-890a-4bc23d522f4e",
+      "source": "/home/vscode/.codex/sessions/2026/11/07/rollout-2026-11-07T14-38-22-01a1b672-3b85-7da0-890a-4bc23d522f4e.jsonl",
+      "matched": true
+    },
+    {
+      "id": "01a1b6a9-6219-70b1-96a9-c4732cc0d14d",
+      "source": "/home/vscode/.codex/sessions/2026/11/07/rollout-2026-11-07T15-38-36-01a1b6a9-6219-70b1-96a9-c4732cc0d14d.jsonl",
+      "matched": true
+    },
+    {
+      "id": "01a1b6c1-1422-7442-8cc7-f59d4bb2e292",
+      "source": "/home/vscode/.codex/sessions/2026/11/07/rollout-2026-11-07T16-04-29-01a1b6c1-1422-7442-8cc7-f59d4bb2e292.jsonl",
+      "matched": true
+    },
+    {
+      "id": "01a1b7d9-b475-7073-bb2d-c3c553934564",
+      "source": "/home/vscode/.codex/sessions/2026/11/07/rollout-2026-11-07T21-11-00-01a1b7d9-b475-7073-bb2d-c3c553934564.jsonl",
+      "matched": true
+    },
+    {
+      "id": "01a1b7db-f5ca-79d0-b69b-d7272c503196",
+      "source": "/home/vscode/.codex/sessions/2026/11/07/rollout-2026-11-07T21-13-28-01a1b7db-f5ca-79d0-b69b-d7272c503196.jsonl",
+      "matched": true
+    },
+    {
+      "id": "01a1b7f6-55e9-7c70-811b-b549d5165a01",
+      "source": "/home/vscode/.codex/sessions/2026/11/07/rollout-2026-11-07T21-42-16-01a1b7f6-55e9-7c70-811b-b549d5165a01.jsonl",
+      "matched": true
+    },
+    {
+      "id": "01a1b825-c4f9-7ca0-89b6-d406a801c481",
+      "source": "/home/vscode/.codex/sessions/2026/11/07/rollout-2026-11-07T22-34-05-01a1b825-c4f9-7ca0-89b6-d406a801c481.jsonl",
+      "matched": true
+    },
+    {
+      "id": "01a1b836-70fd-7e30-aab4-54c3cbf9ff1b",
+      "source": "/home/vscode/.codex/sessions/2026/11/07/rollout-2026-11-07T22-52-18-01a1b836-70fd-7e30-aab4-54c3cbf9ff1b.jsonl",
+      "matched": true
+    },
+    {
+      "id": "01a1b893-b142-7be3-b088-bde970277877",
+      "source": "/home/vscode/.codex/sessions/2026/11/08/rollout-2026-11-08T00-34-10-01a1b893-b142-7be3-b088-bde970277877.jsonl",
+      "matched": true
+    }
+  ],
+  "sessions": [
+    {
+      "id": "01a1a43b-4400-7d21-8c7a-2f842f4e3abd",
+      "title": "Report milestone 1 status",
+      "category": "contextual",
+      "reason": "Issue #19 reference appears in conversation, tools or supporting repository context; not an issue-19 implementation session",
+      "source": "/home/vscode/.codex/sessions/2026/11/04/rollout-2026-11-04T01-45-09-01a1a43b-4400-7d21-8c7a-2f842f4e3abd.jsonl",
+      "source_snapshot_bytes": 3033365,
+      "source_snapshot_sha256": "7a6499516fdbbad818cd1627d871e4d1c7261a7b6fbc436e4c27cbacc2cf0c96",
+      "started_at": "2026-11-04T01:45:09.897Z",
+      "cwd": "/workspaces/agentic-ml",
+      "last_exported_source_line": 827,
+      "cutoff_at_export_request": false,
+      "partial_trailing_lines_ignored": 0,
+      "chat_messages": 46,
+      "tool_records": 168,
+      "omitted_record_counts": {
+        "session_meta": 1,
+        "event_msg": 427,
+        "additional_tools": 1,
+        "message": 4,
+        "setup_user_message": 1,
+        "world_state": 1,
+        "turn_context": 12,
+        "token_usage_record": 97,
+        "reasoning": 72
+      },
+      "transcript": "contextual/rollout-2026-11-04T01-45-09-01a1a43b-4400-7d21-8c7a-2f842f4e3abd.md",
+      "events": "contextual/rollout-2026-11-04T01-45-09-01a1a43b-4400-7d21-8c7a-2f842f4e3abd.jsonl",
+      "transcript_sha256": "b499d18fa02e862b919e1fe5916c151ec9a85bc862ccc408abf127998214e9bf",
+      "events_sha256": "7f3314cfdf87a6f0aa8bcc4fbe2de534052c84fac4e8ac7d42f4ede44312dc44"
+    },
+    {
+      "id": "01a1b3fe-3e21-7af0-9ebc-9d3d324b4bb6",
+      "title": "Plan us-11 implementation",
+      "category": "contextual",
+      "reason": "Issue #19 reference appears in conversation, tools or supporting repository context; not an issue-19 implementation session",
+      "source": "/home/vscode/.codex/sessions/2026/11/07/rollout-2026-11-07T03-12-26-01a1b3fe-3e21-7af0-9ebc-9d3d324b4bb6.jsonl",
+      "source_snapshot_bytes": 3608188,
+      "source_snapshot_sha256": "a116aa49a2e667e2959467ac0ac7e78a22b34c8b97c30a2c3c4eb0b9d95ad981",
+      "started_at": "2026-11-07T03:12:26.158Z",
+      "cwd": "/workspaces/agentic-ml",
+      "last_exported_source_line": 942,
+      "cutoff_at_export_request": false,
+      "partial_trailing_lines_ignored": 0,
+      "chat_messages": 53,
+      "tool_records": 174,
+      "omitted_record_counts": {
+        "session_meta": 1,
+        "event_msg": 507,
+        "additional_tools": 1,
+        "message": 5,
+        "setup_user_message": 1,
+        "world_state": 1,
+        "turn_context": 16,
+        "token_usage_record": 103,
+        "reasoning": 83
+      },
+      "transcript": "contextual/rollout-2026-11-07T03-12-26-01a1b3fe-3e21-7af0-9ebc-9d3d324b4bb6.md",
+      "events": "contextual/rollout-2026-11-07T03-12-26-01a1b3fe-3e21-7af0-9ebc-9d3d324b4bb6.jsonl",
+      "transcript_sha256": "db4c4c3446f68ecdcacb468ec775bbb0d6b1c16203644d6c4d5f2171bfff704f",
+      "events_sha256": "d9332c58c1753421a8dd5076a27aa2ba55080ac417a9ed8be729dd9b15b0eb84"
+    },
+    {
+      "id": "01a1b652-8255-7051-8f7d-9cf3bfa2ed5d",
+      "title": "Check current status",
+      "category": "contextual",
+      "reason": "Issue #19 reference appears in conversation, tools or supporting repository context; not an issue-19 implementation session",
+      "source": "/home/vscode/.codex/sessions/2026/11/07/rollout-2026-11-07T14-03-43-01a1b652-8255-7051-8f7d-9cf3bfa2ed5d.jsonl",
+      "source_snapshot_bytes": 2050362,
+      "source_snapshot_sha256": "62767321905e21e3218071710d1b7a43a2832e99e01f61ed8f9c05315d7e92b7",
+      "started_at": "2026-11-07T14:03:43.082Z",
+      "cwd": "/workspaces/agentic-ml",
+      "last_exported_source_line": 500,
+      "cutoff_at_export_request": false,
+      "partial_trailing_lines_ignored": 0,
+      "chat_messages": 45,
+      "tool_records": 82,
+      "omitted_record_counts": {
+        "session_meta": 1,
+        "event_msg": 265,
+        "additional_tools": 1,
+        "message": 7,
+        "setup_user_message": 1,
+        "world_state": 2,
+        "turn_context": 14,
+        "configuration_update": 2,
+        "token_usage_record": 57,
+        "reasoning": 29
+      },
+      "transcript": "contextual/rollout-2026-11-07T14-03-43-01a1b652-8255-7051-8f7d-9cf3bfa2ed5d.md",
+      "events": "contextual/rollout-2026-11-07T14-03-43-01a1b652-8255-7051-8f7d-9cf3bfa2ed5d.jsonl",
+      "transcript_sha256": "2da358ae5949920a48ccd45d462b88ad33447fd348cf9bf44b5bb46c6d3fc89e",
+      "events_sha256": "604d6edd6dfd177f535fc8db3eb9ffc9c64ceb6901e7344844af489cb36f547c"
+    },
+    {
+      "id": "01a1b672-3b85-7da0-890a-4bc23d522f4e",
+      "title": "Start IP2",
+      "category": "contextual",
+      "reason": "Issue #19 reference appears in conversation, tools or supporting repository context; not an issue-19 implementation session",
+      "source": "/home/vscode/.codex/sessions/2026/11/07/rollout-2026-11-07T14-38-22-01a1b672-3b85-7da0-890a-4bc23d522f4e.jsonl",
+      "source_snapshot_bytes": 3600187,
+      "source_snapshot_sha256": "67a22927b46ee532c91ecf5b299537958844357c4c1496bf55a7e43a520595c9",
+      "started_at": "2026-11-07T14:38:22.097Z",
+      "cwd": "/workspaces/agentic-ml",
+      "last_exported_source_line": 2470,
+      "cutoff_at_export_request": false,
+      "partial_trailing_lines_ignored": 0,
+      "chat_messages": 53,
+      "tool_records": 754,
+      "omitted_record_counts": {
+        "session_meta": 1,
+        "event_msg": 1076,
+        "additional_tools": 1,
+        "message": 4,
+        "setup_user_message": 1,
+        "world_state": 1,
+        "turn_context": 10,
+        "reasoning": 184,
+        "token_usage_record": 388
+      },
+      "transcript": "contextual/rollout-2026-11-07T14-38-22-01a1b672-3b85-7da0-890a-4bc23d522f4e.md",
+      "events": "contextual/rollout-2026-11-07T14-38-22-01a1b672-3b85-7da0-890a-4bc23d522f4e.jsonl",
+      "transcript_sha256": "8a364f75703d3ffa13e6a1b9b85c42d688c5b2b4946886a07842a93c2122d4d3",
+      "events_sha256": "3ebb0c2ae3fc99c91eaf29399055dc9d9891cd21185256037407afbf74a4529f"
+    },
+    {
+      "id": "01a1b6a9-6219-70b1-96a9-c4732cc0d14d",
+      "title": "Identify pending items",
+      "category": "contextual",
+      "reason": "Issue #19 reference appears in conversation, tools or supporting repository context; not an issue-19 implementation session",
+      "source": "/home/vscode/.codex/sessions/2026/11/07/rollout-2026-11-07T15-38-36-01a1b6a9-6219-70b1-96a9-c4732cc0d14d.jsonl",
+      "source_snapshot_bytes": 1829766,
+      "source_snapshot_sha256": "e98710af59fc4b4a0375ad03435e8950a65ff9302992121f677a969d4e5f7ffc",
+      "started_at": "2026-11-07T15:38:36.453Z",
+      "cwd": "/workspaces/agentic-ml",
+      "last_exported_source_line": 600,
+      "cutoff_at_export_request": false,
+      "partial_trailing_lines_ignored": 0,
+      "chat_messages": 31,
+      "tool_records": 154,
+      "omitted_record_counts": {
+        "session_meta": 1,
+        "event_msg": 276,
+        "additional_tools": 1,
+        "message": 4,
+        "setup_user_message": 1,
+        "world_state": 1,
+        "turn_context": 7,
+        "configuration_update": 1,
+        "token_usage_record": 84,
+        "reasoning": 42
+      },
+      "transcript": "contextual/rollout-2026-11-07T15-38-36-01a1b6a9-6219-70b1-96a9-c4732cc0d14d.md",
+      "events": "contextual/rollout-2026-11-07T15-38-36-01a1b6a9-6219-70b1-96a9-c4732cc0d14d.jsonl",
+      "transcript_sha256": "1bb83b4357de1dde4e7d169b474966266d3c152081d4c39a4e678e9eafa769d2",
+      "events_sha256": "dd744dfd677bdd658b21811b7ca5ff60ac67858d9b7122bae81eb3e84b154801"
+    },
+    {
+      "id": "01a1b6c1-1422-7442-8cc7-f59d4bb2e292",
+      "title": "Recommend PR comment fix",
+      "category": "contextual",
+      "reason": "Issue #19 reference appears in conversation, tools or supporting repository context; not an issue-19 implementation session",
+      "source": "/home/vscode/.codex/sessions/2026/11/07/rollout-2026-11-07T16-04-29-01a1b6c1-1422-7442-8cc7-f59d4bb2e292.jsonl",
+      "source_snapshot_bytes": 1512416,
+      "source_snapshot_sha256": "195cae3b9a00cb7e7bd0a33fd0d2481c68a8569e037368f995d77bff521f3b39",
+      "started_at": "2026-11-07T16:04:29.359Z",
+      "cwd": "/workspaces/agentic-ml",
+      "last_exported_source_line": 570,
+      "cutoff_at_export_request": false,
+      "partial_trailing_lines_ignored": 0,
+      "chat_messages": 37,
+      "tool_records": 138,
+      "omitted_record_counts": {
+        "session_meta": 1,
+        "event_msg": 275,
+        "additional_tools": 1,
+        "message": 4,
+        "setup_user_message": 1,
+        "world_state": 1,
+        "turn_context": 10,
+        "token_usage_record": 79,
+        "reasoning": 26
+      },
+      "transcript": "contextual/rollout-2026-11-07T16-04-29-01a1b6c1-1422-7442-8cc7-f59d4bb2e292.md",
+      "events": "contextual/rollout-2026-11-07T16-04-29-01a1b6c1-1422-7442-8cc7-f59d4bb2e292.jsonl",
+      "transcript_sha256": "cfc8ca5cd0dd93425bd1ad2f2eff70838c6fe6937f96c6070e08bccaa1a851d5",
+      "events_sha256": "1f8fbc5c92532da3c3bc8dc9cda17c6f71220d50fe2fb16636b0d8a8d120864d"
+    },
+    {
+      "id": "01a1b7d9-b475-7073-bb2d-c3c553934564",
+      "title": "Check blockers for gh issue #19",
+      "category": "primary",
+      "reason": "Blockers and initial planning request",
+      "source": "/home/vscode/.codex/sessions/2026/11/07/rollout-2026-11-07T21-11-00-01a1b7d9-b475-7073-bb2d-c3c553934564.jsonl",
+      "source_snapshot_bytes": 556681,
+      "source_snapshot_sha256": "55c2c8b2e48f47bc22e682abedd3646ea016bd551c8ce8077192070b441e890c",
+      "started_at": "2026-11-07T21:11:00.498Z",
+      "cwd": "/workspaces/agentic-ml",
+      "last_exported_source_line": 87,
+      "cutoff_at_export_request": false,
+      "partial_trailing_lines_ignored": 0,
+      "chat_messages": 5,
+      "tool_records": 16,
+      "omitted_record_counts": {
+        "session_meta": 1,
+        "event_msg": 49,
+        "additional_tools": 1,
+        "message": 5,
+        "setup_user_message": 1,
+        "world_state": 1,
+        "turn_context": 2,
+        "token_usage_record": 9,
+        "reasoning": 2
+      },
+      "transcript": "primary/rollout-2026-11-07T21-11-00-01a1b7d9-b475-7073-bb2d-c3c553934564.md",
+      "events": "primary/rollout-2026-11-07T21-11-00-01a1b7d9-b475-7073-bb2d-c3c553934564.jsonl",
+      "transcript_sha256": "19b0b4c3a0a507ca5856a0301dc6305609b56079c0202e6ff560aa266f2bba89",
+      "events_sha256": "45065ccf2afa6771ac3f5f36e5a9652300ff8c4861b7aadb33a146a19cb4dabb"
+    },
+    {
+      "id": "01a1b7db-f5ca-79d0-b69b-d7272c503196",
+      "title": "Define implementation play for #19",
+      "category": "primary",
+      "reason": "Plan, native-library reuse and two/three-way alignment",
+      "source": "/home/vscode/.codex/sessions/2026/11/07/rollout-2026-11-07T21-13-28-01a1b7db-f5ca-79d0-b69b-d7272c503196.jsonl",
+      "source_snapshot_bytes": 2036603,
+      "source_snapshot_sha256": "153811623782a6a1d65a0617eff6a36a12979bf2c4c9b6d35cd0639bfa8a7a72",
+      "started_at": "2026-11-07T21:13:28.279Z",
+      "cwd": "/workspaces/agentic-ml",
+      "last_exported_source_line": 529,
+      "cutoff_at_export_request": false,
+      "partial_trailing_lines_ignored": 0,
+      "chat_messages": 43,
+      "tool_records": 98,
+      "omitted_record_counts": {
+        "session_meta": 1,
+        "event_msg": 271,
+        "additional_tools": 1,
+        "message": 4,
+        "setup_user_message": 1,
+        "world_state": 1,
+        "turn_context": 14,
+        "token_usage_record": 63,
+        "reasoning": 35
+      },
+      "transcript": "primary/rollout-2026-11-07T21-13-28-01a1b7db-f5ca-79d0-b69b-d7272c503196.md",
+      "events": "primary/rollout-2026-11-07T21-13-28-01a1b7db-f5ca-79d0-b69b-d7272c503196.jsonl",
+      "transcript_sha256": "d15c656c6a541d82b23ac40d8e4e9b6a0dc0c9fb0153659a9d27fd7beb12c07d",
+      "events_sha256": "4d02662b2c16d9dd50bd090f9f05116fe9c143c07dba4b4b05c8ce5e6db20bbe"
+    },
+    {
+      "id": "01a1b7f6-55e9-7c70-811b-b549d5165a01",
+      "title": "Start IP1",
+      "category": "primary",
+      "reason": "IP1 contracts and two-helper scope decision",
+      "source": "/home/vscode/.codex/sessions/2026/11/07/rollout-2026-11-07T21-42-16-01a1b7f6-55e9-7c70-811b-b549d5165a01.jsonl",
+      "source_snapshot_bytes": 2447877,
+      "source_snapshot_sha256": "510c4ab4a6570dec8628d6d90a0f332f970b7400cc360dee0131097baf849056",
+      "started_at": "2026-11-07T21:42:16.821Z",
+      "cwd": "/workspaces/agentic-ml",
+      "last_exported_source_line": 639,
+      "cutoff_at_export_request": false,
+      "partial_trailing_lines_ignored": 0,
+      "chat_messages": 58,
+      "tool_records": 100,
+      "omitted_record_counts": {
+        "session_meta": 1,
+        "event_msg": 339,
+        "additional_tools": 1,
+        "message": 4,
+        "setup_user_message": 1,
+        "world_state": 1,
+        "turn_context": 21,
+        "token_usage_record": 71,
+        "reasoning": 45
+      },
+      "transcript": "primary/rollout-2026-11-07T21-42-16-01a1b7f6-55e9-7c70-811b-b549d5165a01.md",
+      "events": "primary/rollout-2026-11-07T21-42-16-01a1b7f6-55e9-7c70-811b-b549d5165a01.jsonl",
+      "transcript_sha256": "0c8577988af914b421e1d2b1ecc48aa1fd96705ba1a6f85015b0b9140f30c03b",
+      "events_sha256": "4cb00095abbc5e69701473cfc63a373214f9a89202e47697d021ef8c42db5ca1"
+    },
+    {
+      "id": "01a1b825-c4f9-7ca0-89b6-d406a801c481",
+      "title": "Identify next phase",
+      "category": "primary",
+      "reason": "IP2 assessment implementation and approval",
+      "source": "/home/vscode/.codex/sessions/2026/11/07/rollout-2026-11-07T22-34-05-01a1b825-c4f9-7ca0-89b6-d406a801c481.jsonl",
+      "source_snapshot_bytes": 1459118,
+      "source_snapshot_sha256": "317fd33341b12cbafe457385c70b47159e87346f3460a7944cfc200da1724c66",
+      "started_at": "2026-11-07T22:34:05.446Z",
+      "cwd": "/workspaces/agentic-ml",
+      "last_exported_source_line": 447,
+      "cutoff_at_export_request": false,
+      "partial_trailing_lines_ignored": 0,
+      "chat_messages": 27,
+      "tool_records": 92,
+      "omitted_record_counts": {
+        "session_meta": 1,
+        "event_msg": 233,
+        "additional_tools": 1,
+        "message": 5,
+        "setup_user_message": 1,
+        "world_state": 2,
+        "turn_context": 7,
+        "configuration_update": 1,
+        "token_usage_record": 53,
+        "reasoning": 27
+      },
+      "transcript": "primary/rollout-2026-11-07T22-34-05-01a1b825-c4f9-7ca0-89b6-d406a801c481.md",
+      "events": "primary/rollout-2026-11-07T22-34-05-01a1b825-c4f9-7ca0-89b6-d406a801c481.jsonl",
+      "transcript_sha256": "468767f5d98b9a43d8a19ae54d1f62c642a29e62ba329f97d81002745494dbb9",
+      "events_sha256": "8c3a4f0a0ff00abc0fd445596c0effaff9cc20c937ea3f89ac424bf376290a2f"
+    },
+    {
+      "id": "01a1b836-70fd-7e30-aab4-54c3cbf9ff1b",
+      "title": "Start IP3",
+      "category": "primary",
+      "reason": "IP3 partitions implementation and approval",
+      "source": "/home/vscode/.codex/sessions/2026/11/07/rollout-2026-11-07T22-52-18-01a1b836-70fd-7e30-aab4-54c3cbf9ff1b.jsonl",
+      "source_snapshot_bytes": 2079753,
+      "source_snapshot_sha256": "1d10b36368b85d3be5025bbf8d9059b431f9788da13458ec6419d2c9594dee71",
+      "started_at": "2026-11-07T22:52:18.058Z",
+      "cwd": "/workspaces/agentic-ml",
+      "last_exported_source_line": 679,
+      "cutoff_at_export_request": false,
+      "partial_trailing_lines_ignored": 0,
+      "chat_messages": 28,
+      "tool_records": 154,
+      "omitted_record_counts": {
+        "session_meta": 1,
+        "event_msg": 336,
+        "additional_tools": 1,
+        "message": 4,
+        "setup_user_message": 1,
+        "world_state": 1,
+        "turn_context": 4,
+        "token_usage_record": 82,
+        "reasoning": 70
+      },
+      "transcript": "primary/rollout-2026-11-07T22-52-18-01a1b836-70fd-7e30-aab4-54c3cbf9ff1b.md",
+      "events": "primary/rollout-2026-11-07T22-52-18-01a1b836-70fd-7e30-aab4-54c3cbf9ff1b.jsonl",
+      "transcript_sha256": "e1a22a75b601a9cea4341922d3406a65920e026a7eba3dff01c8e18685599ca6",
+      "events_sha256": "521e280adba5c3a4a56fa126e4b58a71a741f47b74338b82825c61fe607d2874"
+    },
+    {
+      "id": "01a1b893-b142-7be3-b088-bde970277877",
+      "title": "Start IPv4",
+      "category": "primary",
+      "reason": "IP4, acceptance, PR/review, merge and branch cleanup",
+      "source": "/home/vscode/.codex/sessions/2026/11/08/rollout-2026-11-08T00-34-10-01a1b893-b142-7be3-b088-bde970277877.jsonl",
+      "source_snapshot_bytes": 2892946,
+      "source_snapshot_sha256": "bf1e9e2b5423ecedb6923436102fd9910095b6d10d264b0ccef1e51f06c7faa8",
+      "started_at": "2026-11-08T00:34:10.094Z",
+      "cwd": "/workspaces/agentic-ml",
+      "last_exported_source_line": 949,
+      "cutoff_at_export_request": true,
+      "partial_trailing_lines_ignored": 0,
+      "chat_messages": 48,
+      "tool_records": 218,
+      "omitted_record_counts": {
+        "session_meta": 1,
+        "event_msg": 466,
+        "additional_tools": 1,
+        "message": 4,
+        "setup_user_message": 1,
+        "world_state": 1,
+        "turn_context": 10,
+        "token_usage_record": 119,
+        "reasoning": 80
+      },
+      "transcript": "primary/rollout-2026-11-08T00-34-10-01a1b893-b142-7be3-b088-bde970277877.md",
+      "events": "primary/rollout-2026-11-08T00-34-10-01a1b893-b142-7be3-b088-bde970277877.jsonl",
+      "transcript_sha256": "7bdc0e5a8184cb03b0ab3e603b0bdbc208058f693b85f4404aa57af0757d3a77",
+      "events_sha256": "606c5b75be5f33c8e43fe33ea37ab9a41873d6460871e2d483867716eb02f941"
+    }
+  ],
+  "token_redactions": 0
+}
