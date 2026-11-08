@@ -4,7 +4,7 @@ These lessons cover commits `4602fa6` through `889c28e` in [agentic-ml](https://
 
 Two dialogue tables at the end trace developer direction from planning through implementation, review, and merge. The US-11 table shows design correction and phased approvals for local data extraction. The US-12 issue #19 table shows how questions about requirements and proposed APIs led to scope alignment, simpler interfaces, and verification of assessment and partitioning behavior.
 
-**Key takeaway:** Well-defined user stories, detailed design specifications, and regular review of the coding assistant’s work are critical to controlling project scope and preventing over-engineering. Reviewing proposed interfaces before coding helps uncover missing requirements and unnecessary abstractions.
+**Key takeaway:** Well-defined user stories, detailed design specifications, and regular review of the coding assistant’s work are critical to controlling project scope and preventing over-engineering. Reviewing proposed interfaces before coding helps uncover missing requirements and unnecessary abstractions. Efficient CI also matters: running independent checks in parallel keeps feedback timely while preserving complete test coverage.
 
 ## What Worked
 
@@ -22,7 +22,7 @@ Two dialogue tables at the end trace developer direction from planning through i
 
 Resolving this issue added development time and increased tokens costs.
 
-The following items describe that rework.
+The following items describe that rework and the CI changes needed to keep verification timely.
 
 - **The roadmap needed a tighter MVP.** M1–6 became two milestones: M1 completes one local classification experiment; M2 adds usability and committed-project reproduction. M0 foundation and M50 tooling retain their obligations; broader platform work is deferred. US-39 covers the basic experiment path; US-40 covers scientist-directed external assistant use. ([User stories](https://github.com/jimthompson5802/agentic-ml/blob/main/docs/specs/user-stories.md), [Scope revision plan](https://github.com/jimthompson5802/agentic-ml/blob/main/docs/plans/mvp-scope-revision.md))
 
