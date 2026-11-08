@@ -8,13 +8,13 @@ These lessons cover commits `4602fa6` through `889c28e` in [agentic-ml](https://
 
 ## What Worked
 
-**Clear requirements authority defined scope.** GitHub issues govern implementation, including acceptance criteria and comment decisions. Stories provide milestone context; design documents support implementation. Agents must read the complete issue and relevant design contracts before coding. ([Agent instructions](../agentic-ml/AGENTS.md), [User stories](../agentic-ml/docs/specs/user-stories.md), [Active design](../agentic-ml/docs/specs/agentic-ml-harness-design.md))
+**Clear requirements authority defined scope.** GitHub issues govern implementation, including acceptance criteria and comment decisions. Stories provide milestone context; design documents support implementation. Agents must read the complete issue and relevant design contracts before coding. ([Agent instructions](https://github.com/jimthompson5802/agentic-ml/blob/main/AGENTS.md), [User stories](https://github.com/jimthompson5802/agentic-ml/blob/main/docs/specs/user-stories.md), [Active design](https://github.com/jimthompson5802/agentic-ml/blob/main/docs/specs/agentic-ml-harness-design.md))
 
-**Phase gates kept approval explicit.** Plans follow milestone → user story → implementation phases → tasks. Each phase requires developer approval; plan approval alone does not authorize implementation. Scope changes require a recorded impact assessment and decision. ([Agent instructions](../agentic-ml/AGENTS.md))
+**Phase gates kept approval explicit.** Plans follow milestone → user story → implementation phases → tasks. Each phase requires developer approval; plan approval alone does not authorize implementation. Scope changes require a recorded impact assessment and decision. ([Agent instructions](https://github.com/jimthompson5802/agentic-ml/blob/main/AGENTS.md))
 
-**Verification clarified completion.** TDD requires agreed public test boundaries, small red–green cycles, and preserved evidence. Phase, story, and milestone acceptance have distinct obligations; passing story checks does not complete milestone verification. ([Agent instructions](../agentic-ml/AGENTS.md), [Development checkpoints](../agentic-ml/CHECKPOINTS.md))
+**Verification clarified completion.** TDD requires agreed public test boundaries, small red–green cycles, and preserved evidence. Phase, story, and milestone acceptance have distinct obligations; passing story checks does not complete milestone verification. ([Agent instructions](https://github.com/jimthompson5802/agentic-ml/blob/main/AGENTS.md), [Development checkpoints](https://github.com/jimthompson5802/agentic-ml/blob/main/CHECKPOINTS.md))
 
-**Criterion-level scope made acceptance precise.** The scope revision synchronized GitHub issues and acceptance criteria. US-12 issue #15 covers quality checks and blocking; #19 retains assessment and partitions. Closing one issue does not complete the story, and approving scope does not deliver the MVP. ([Scope revision plan](../agentic-ml/docs/plans/mvp-scope-revision.md), [Development checkpoints](../agentic-ml/CHECKPOINTS.md))
+**Criterion-level scope made acceptance precise.** The scope revision synchronized GitHub issues and acceptance criteria. US-12 issue #15 covers quality checks and blocking; #19 retains assessment and partitions. Closing one issue does not complete the story, and approving scope does not deliver the MVP. ([Scope revision plan](https://github.com/jimthompson5802/agentic-ml/blob/main/docs/plans/mvp-scope-revision.md), [Development checkpoints](https://github.com/jimthompson5802/agentic-ml/blob/main/CHECKPOINTS.md))
 
 
 
@@ -26,16 +26,16 @@ Resolving this issue consumed additional development time and tokens to narrow t
 
 The following items describe that rework.
 
-- **The roadmap needed a tighter MVP.** M1–6 became two milestones: M1 completes one local classification experiment; M2 adds usability and committed-project reproduction. M0 foundation and M50 tooling retain their obligations; broader platform work is deferred. US-39 covers the basic experiment path; US-40 covers scientist-directed external assistant use. ([User stories](../agentic-ml/docs/specs/user-stories.md), [Scope revision plan](../agentic-ml/docs/plans/mvp-scope-revision.md))
+- **The roadmap needed a tighter MVP.** M1–6 became two milestones: M1 completes one local classification experiment; M2 adds usability and committed-project reproduction. M0 foundation and M50 tooling retain their obligations; broader platform work is deferred. US-39 covers the basic experiment path; US-40 covers scientist-directed external assistant use. ([User stories](https://github.com/jimthompson5802/agentic-ml/blob/main/docs/specs/user-stories.md), [Scope revision plan](https://github.com/jimthompson5802/agentic-ml/blob/main/docs/plans/mvp-scope-revision.md))
 
-- **The basic path needed simpler requirements.** Mandatory experiment approvals were removed from the basic path. Existing strict planning, validation, and approval APIs remain supported, with their integrity and validation contracts preserved. ([Active design](../agentic-ml/docs/specs/agentic-ml-harness-design.md))
+- **The basic path needed simpler requirements.** Mandatory experiment approvals were removed from the basic path. Existing strict planning, validation, and approval APIs remain supported, with their integrity and validation contracts preserved. ([Active design](https://github.com/jimthompson5802/agentic-ml/blob/main/docs/specs/agentic-ml-harness-design.md))
 
-- **Extraction needed fewer abstractions.** Native pandas DataFrames and project functions replaced proposed wrappers, query abstractions, and registration machinery. A small helper records provenance; native scikit-learn components support preprocessing and models. ([Active design](../agentic-ml/docs/specs/agentic-ml-harness-design.md))
+- **Extraction needed fewer abstractions.** Native pandas DataFrames and project functions replaced proposed wrappers, query abstractions, and registration machinery. A small helper records provenance; native scikit-learn components support preprocessing and models. ([Active design](https://github.com/jimthompson5802/agentic-ml/blob/main/docs/specs/agentic-ml-harness-design.md))
 
-- **Design claims needed clearer boundaries.** The design separates implemented contracts, proposed interfaces, and deferred capabilities. OS isolation, hard quotas, managed agents, and durable recovery remain deferred. Historical designs serve as references rather than MVP requirements. ([Active design](../agentic-ml/docs/specs/agentic-ml-harness-design.md))
+- **Design claims needed clearer boundaries.** The design separates implemented contracts, proposed interfaces, and deferred capabilities. OS isolation, hard quotas, managed agents, and durable recovery remain deferred. Historical designs serve as references rather than MVP requirements. ([Active design](https://github.com/jimthompson5802/agentic-ml/blob/main/docs/specs/agentic-ml-harness-design.md))
 
 
-**Periodic clean up of CHECKPOINTS.md** Reduce the clutter in CHECKPOINTS.md. It now summarizes the current position and links to authoritative plans and evidence. ([Development checkpoints](../agentic-ml/CHECKPOINTS.md))
+**Periodic clean up of CHECKPOINTS.md** Reduce the clutter in CHECKPOINTS.md. It now summarizes the current position and links to authoritative plans and evidence. ([Development checkpoints](https://github.com/jimthompson5802/agentic-ml/blob/main/CHECKPOINTS.md))
 
 
 ## Example Dialog with the Coding Assistant
