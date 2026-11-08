@@ -32,6 +32,8 @@ The following items describe that rework.
 
 - **Design claims needed clearer boundaries.** The design separates implemented contracts, proposed interfaces, and deferred capabilities. OS isolation, hard quotas, managed agents, and durable recovery remain deferred. Historical designs serve as references rather than MVP requirements. ([Active design](https://github.com/jimthompson5802/agentic-ml/blob/main/docs/specs/agentic-ml-harness-design.md))
 
+- **Refactor CI into two parallel jobs to solve time out error.** Default milestone tests and code checks now run alongside the remaining tests and distribution checks in two independent jobs. The split preserves complete test coverage without overlap and requires both jobs to pass. ([CI design](https://github.com/jimthompson5802/agentic-ml/blob/main/docs/development/ci.md))
+
 
 **Periodic clean up of CHECKPOINTS.md** Reduce the clutter in CHECKPOINTS.md. It now summarizes the current position and links to authoritative plans and evidence. ([Development checkpoints](https://github.com/jimthompson5802/agentic-ml/blob/main/CHECKPOINTS.md))
 
